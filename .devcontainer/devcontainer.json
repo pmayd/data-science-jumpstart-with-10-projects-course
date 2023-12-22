@@ -2,8 +2,8 @@
     "extensions": [
         "ms-toolsai.jupyter",
         "GitHub.github-vscode-theme",
-        "ms-python.python" // Includes Jupyter extension
-        // Additional Extensions Here
+        "ms-python.python",
+        "GitHub.copilot"
     ],
     "onCreateCommand": "[ -f requirements.txt ] && pip install -r requirements.txt; echo PS1='\"$ \"' >> ~/.bashrc", //Set Terminal Prompt to $
 }
